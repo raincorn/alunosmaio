@@ -3,30 +3,20 @@ version: 2
 
 requirements:
   signed_off_by:
-    required: false
+    required: true
 
 always_pending:
   title_regex: 'WIP'
-  labels:
-  - wip
-    # custom message that will be used for the GitHub status
-  explanation: 'Trabalho em progresso...'
-
-# Group settings to apply to all groups by default, optionally being overridden later
-group_defaults:
-  approve_by_comment:
-    enabled: false
-    approve_regex: '^:\+1:'
-  reset_on_push:
-    enabled: true
+  explanation: 'Work in progress...'
 
 # Groups of reviewers and their respective settings
 groups:
-  desenvolvedores:
+  reviewer:
     required: 2
 
     users:
       - alipseight
+      - zuquepedro
 
     conditions:
       branches:
@@ -34,22 +24,32 @@ groups:
       files:
         include:
           - '*.md'
+        exclude:
+          - 'README.md'
       labels:
-        - COMUNIDADE
-        - APRIMORAMENTO
-        - BACKEND
-        - CONTEÚDO
-        - CONTRIBUIÇÃO
         - ERRO
-        - FRONTEND
 
     approve_by_comment:
       enabled: true
       approve_regex: '^Approved'  # overrides the default '^:\+1:'
-      reject_regex: '^Rejected' 
+      reject_regex: 'Rejected'
 
     author_approval:
-      required: true
+      required: false
 
     reset_on_reopened:
       enabled: true
+
+    
+
+  security:
+    required: -1  # require approval from everyone
+    teams:
+      - security-reviewers
+    reset_on_push:
+      enabled: true
+    reset_on_reopened:
+      enabled: true
+    author_approval:
+      ignored: true
+    reject_value: -100  # any rejection means a failure
