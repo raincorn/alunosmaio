@@ -10,8 +10,6 @@ groups:
       enabled: true
     users:
     - alipseight
-   author_approval:
-      requried: true
 
 always_pending:
   title_regex: '(WIP|wip)'
