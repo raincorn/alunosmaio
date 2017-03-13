@@ -16,7 +16,7 @@ always_pending:
   labels:
     - wip
   # custom message that will be used for the GitHub status
-  explanation: 'This PR is a work in progress...'
+  explanation: 'Este PR é um trabalho em progresso...'
   
   groups:
   administrador:
@@ -28,4 +28,4 @@ always_pending:
       labels:
         - no-review
       # custom message that will be used for the GitHub status
-      explanation: 'This PR does not need approval'
+      explanation: 'Este PR  não precisa de aprovação'
