@@ -21,7 +21,7 @@ always_pending:
   explanation: 'This PR is a work in progress...'
   
   groups:
-  administradores:
+  administrador:
     required: 1
     users:
       - alipseight
