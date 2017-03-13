@@ -1,0 +1,31 @@
+version: 2
+groups:
+  desenvolvedores:
+    approve_by_comment:
+      approve_regex: ^Approved
+      enabled: true
+      reject_regex: ^Rejected
+    required: 1
+    reset_on_push:
+      enabled: true
+    users:
+    - alipseight
+
+always_pending:
+  title_regex: '(WIP|wip)'
+  labels:
+    - wip
+  # custom message that will be used for the GitHub status
+  explanation: 'This PR is a work in progress...'
+  
+  groups:
+  administrador:
+    required: 1
+    users:
+      - alipseight
+    always_approved:
+      title_regex: 'NR'
+      labels:
+        - no-review
+      # custom message that will be used for the GitHub status
+      explanation: 'This PR does not need approval'
