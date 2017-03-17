@@ -1,5 +1,11 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
+# SITE CONFIG
+title: AlunosMaio
+description: Tudo em um só lugar.
+github_repository: raincorn/alunosmaio
+
+#SITE SETTINGS
+s_version: v0.0.1-rls+zeppelin.1
+git_repo: true
+show_downloads: false
 google_analytics:
-theme: 
+theme: jekyll-theme-cayman
