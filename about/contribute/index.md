@@ -1,12 +1,29 @@
+---
+layout: default
+---
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="/about/contribute/">Contribuir</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about/contribute/code-of-conduct/">CCOC</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/about/contribute/styles">Markdown</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{site.github_repository}}"><i class="fa fa-github"></i> Github</a>
+  </li>
+</ul>
 ## Contributing
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
-Please note that this project is released with a [Contributor Code of Conduct][code-of-conduct]. By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [CCOC -Contributor Code of Conduct](/about/contribute/code-of-conduct). By participating in this project you agree to abide by its terms.
 
 ## Submitting a pull request
 
-0. [Fork][fork] and clone the repository
+0. Fork and clone the repository
 0. Configure and install the dependencies: `script/bootstrap`
 0. Make sure the tests pass on your machine: `script/cibuild`
 0. Create a new branch: `git checkout -b my-branch-name`

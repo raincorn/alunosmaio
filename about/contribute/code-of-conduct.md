@@ -1,3 +1,20 @@
+---
+layout: default
+---
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="/about/contribute/">Contribuir</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="/about/contribute/code-of-conduct/">CCOC</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/about/contribute/styles">Markdown</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{site.github_repository}}"><i class="fa fa-github"></i> Github</a>
+  </li>
+</ul>
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

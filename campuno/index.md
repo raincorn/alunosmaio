@@ -1,7 +1,20 @@
 ---
 layout: default
 ---
-
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="/campuno/">CAMPUNO</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/campuno/listagem">Listagem</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/about/contribute/styles">Markdown</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{site.github_repository}}"><i class="fa fa-github"></i> Github</a>
+  </li>
+</ul>
 <ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link active" href="/campuno/">CAMPUNO</a>
@@ -37,7 +50,7 @@ O evento poderá ocorrer em qualquer horário e data sem aviso prévio ao decorr
     <a href="/campuno/reg/" class="btn btn-danger disabled">BAIXE</a>
   </div>
   <div class="card-footer text-muted">
-    Atualizado 17 Mar 2017 às 00:44 por <a href="#secretaria-de-estado">Magno Reis</a>
+    Atualizado 17 Mar 2017 às 18:13 por <a href="#secretaria-de-estado">Magno Reis</a>
   </div>
 </div>
 

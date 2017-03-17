@@ -10,7 +10,7 @@ layout: default
       <div class="card">
         <div class="card-block">
           <h3 class="card-title">CAMPUNO <span class="badge badge-default">Novo</span></h3>
-          <p class="card-text">Nosso evento em alta que traz a você uma competição de UNO com alunos.</p>
+          <p class="card-text">Nosso evento em alta que traz a você uma competição de UNO com alunos. Pontos serão creditados aumentando mais a competição.</p>
           <a href="/campuno/" class="btn btn-primary">Saiba mais &raquo;</a>
         </div>
       </div>
@@ -28,4 +28,4 @@ layout: default
 
 # NOTÍCIA
 
-  Nosso site está em processo de criação e por este motivo não há conteúdo adicional, nós estamos atualmente na versão <kdb>{{site.s_version}}</kdb> contribua, seja membro do nosso time.
+  Nosso site está em processo de criação e por este motivo não há conteúdo adicional, nós estamos atualmente na versão <kdb>{{site.current_version}}</kdb> contribua, seja membro do nosso time.
