@@ -17,10 +17,10 @@ always_pending:
     - wip
   # custom message that will be used for the GitHub status
   explanation: 'Este PR é um trabalho em progresso...'
-  
+
   groups:
   administrador:
-    required: 1
+    required: 0
     users:
       - alipseight
     always_approved:

@@ -19,7 +19,7 @@ layout: default
       <div class="card">
         <div class="card-block">
           <h3 class="card-title">Contribua</h3>
-          <p class="card-text">Nós trabalhamos em parceria com a *open source project* e nosso código está disponível para você hackear.</p>
+          <p class="card-text">Nós trabalhamos em parceria com a <i>open source project</i> e nosso código está disponível para você hackear.</p>
           <a href="/about/contribute/" class="btn btn-primary">Contribua &raquo;</a>
         </div>
       </div>
