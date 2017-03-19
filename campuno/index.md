@@ -9,27 +9,12 @@ layout: default
     <a class="nav-link" href="/campuno/listagem">Listagem</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="/about/contribute/styles">Markdown</a>
+    <a class="nav-link disabled" href="/campuno/reg/">Regulamento</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{site.github_repository}}"><i class="fa fa-github"></i> Github</a>
+    <a class="nav-link" href="/campuno/p">Registro de Partidas</a>
   </li>
 </ul>
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="/campuno/">CAMPUNO</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/campuno/listagem">LISTAGEM</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/campuno/reg/">REGULAMENTO</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/campuno/p">PARTIDAS</a>
-  </li>
-</ul>
-
 
 # CAMPUNO (Campeonato UNO)
 

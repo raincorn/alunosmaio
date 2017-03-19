@@ -11,7 +11,7 @@ layout: default
         <div class="card-block">
           <h3 class="card-title">CAMPUNO <span class="badge badge-default">Novo</span></h3>
           <p class="card-text">Nosso evento em alta que traz a você uma competição de UNO com alunos. Pontos serão creditados aumentando mais a competição.</p>
-          <a href="/campuno/" class="btn btn-primary">Saiba mais &raquo;</a>
+          <a href="{{site.baseurl}}/campuno/" class="btn btn-primary">Saiba mais &raquo;</a>
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@ layout: default
         <div class="card-block">
           <h3 class="card-title">Contribua</h3>
           <p class="card-text">Nós trabalhamos em parceria com a <i>open source project</i> e nosso código está disponível para você hackear.</p>
-          <a href="/about/contribute/" class="btn btn-primary">Contribua &raquo;</a>
+          <a href="{{site.baseurl}}/about/contribute/" class="btn btn-primary">Contribua &raquo;</a>
         </div>
       </div>
     </div>
