@@ -3,16 +3,16 @@ layout: default
 ---
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="/campuno/">CAMPUNO</a>
+    <a class="nav-link active" href="{{site.baseurl}}campuno/">CAMPUNO</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/campuno/listagem">Listagem</a>
+    <a class="nav-link" href="{{site.baseurl}}campuno/listagem">Listagem</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="/campuno/reg/">Regulamento</a>
+    <a class="nav-link disabled" href="{{site.baseurl}}campuno/reg/">Regulamento</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/campuno/p">Registro de Partidas</a>
+    <a class="nav-link" href="{{site.baseurl}}campuno/p">Registro de Partidas</a>
   </li>
 </ul>
 
@@ -31,8 +31,8 @@ O evento poderá ocorrer em qualquer horário e data sem aviso prévio ao decorr
   <div class="card-block">
     <h4 class="card-title">Regulamentação CAMPUNO</h4>
     <p class="card-text">Diretrizes e normas de legislação do campeonato. Ao iniciar-se uma partida as normas do UNO e normas extras irão regulamentar a partida.</p>
-    <a href="/campuno/reg/" class="btn btn-primary">Leia &raquo;</a>
-    <a href="/campuno/reg/" class="btn btn-danger disabled">BAIXE</a>
+    <a href="{{site.baseurl}}campuno/reg/" class="btn btn-primary">Leia &raquo;</a>
+    <a href="{{site.baseurl}}campuno/reg/" class="btn btn-danger disabled">BAIXE</a>
   </div>
   <div class="card-footer text-muted">
     Atualizado 17 Mar 2017 às 18:13 por <a href="#secretaria-de-estado">Magno Reis</a>
