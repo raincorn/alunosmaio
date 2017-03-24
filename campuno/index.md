@@ -35,7 +35,7 @@ O evento poderá ocorrer em qualquer horário e data sem aviso prévio ao decorr
     <a href="{{site.baseurl}}campuno/reg/" class="btn btn-danger disabled">BAIXE</a>
   </div>
   <div class="card-footer text-muted">
-    Atualizado 17 Mar 2017 às 18:13 por <a href="#secretaria-de-estado">Magno Reis</a>
+    Atualizado 17 Mar 2017 às 18:13 por <a href="#seces">Magno Reis</a>
   </div>
 </div>
 
@@ -54,7 +54,7 @@ A Equipe STAFF irá moderar os participantes durante o campeonato, tendo eles pl
 - Ana Clara Lopes
 - Jean Estigarribia
 
-### Secretaria de Estado
+### [](#seces) Secretaria de Estado
 > Administra o evento e participantes oferecendo suporte, faz a legislação geral.
 
 - Magno Reis

@@ -7,6 +7,7 @@ exclude: [vendor]
 css_url: https://raincorn.github.io/alunosmaio/assets/css/
 github_repository: https://github.com/raincorn/alunosmaio
 domain: https://raincorn.github.io/alunosmaio/
+org_url: https://raincorn.github.io/
 current_version: v1.0.3.9fb4f57
 git_repo: true
 show_downloads: false
