@@ -3,6 +3,7 @@ title: AlunosMaio
 description: Tudo em um só lugar.
 
 #SITE SETTINGS
+exclude: [vendor]
 css_url: https://raincorn.github.io/raincorn/alunosmaio/assets/css/
 github_repository: https://github.com/raincorn/alunosmaio
 domain: https://raincorn.github.io/alunosmaio/
