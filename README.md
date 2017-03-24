@@ -1,4 +1,8 @@
-# AlunosMaio  Webpage
+# AlunosMaio 
+
+[![Build Status](https://travis-ci.org/raincorn/alunosmaio.svg?branch=master)](https://travis-ci.org/raincorn/alunosmaio)
+
+![Version](https://img.shields.io/badge/version-v1.0.3.9fb4f57-yellowgreen.svg)
 
 Olá, bem vindo ao repositório do site ALUNOSMAIO! Aqui você  poderá ver coisas antes mesmo delas irem ao *ar*, isso por quê nossas issues irão propor e discutir ferramentas e ajustes para serem lançadas.
 
