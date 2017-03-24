@@ -3,13 +3,13 @@ layout: default
 ---
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="{{site.baseurl}}about/contribute/">Contribuir</a>
+    <a class="nav-link active" href="{{site.domain}}about/contribute/">Contribuir</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}about/contribute/code-of-conduct/">CCOC</a>
+    <a class="nav-link" href="{{site.domain}}about/contribute/code-of-conduct/">CCOC</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="{{site.baseurl}}about/contribute/styles">Markdown</a>
+    <a class="nav-link disabled" href="{{site.domain}}about/contribute/styles">Markdown</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="{{site.github_repository}}"><i class="fa fa-github"></i> Github</a>
@@ -19,7 +19,7 @@ layout: default
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
-Please note that this project is released with a [CCOC -Contributor Code of Conduct](/about/contribute/code-of-conduct). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [CCOC -Contributor Code of Conduct]({{site.domain}}about/contribute/code-of-conduct). By participating in this project you agree to abide by its terms.
 
 ## Submitting a pull request
 
@@ -47,4 +47,4 @@ Here are a few things you can do that will increase the likelihood of your pull 
 [fork]: https://github.com/pages-themes/cayman/fork
 [pr]: https://github.com/pages-themes/cayman/compare
 [style]: http://ben.balter.com/jekyll-style-guide/
-[code-of-conduct]: CODE_OF_CONDUCT.md
+[code-of-conduct]: code-of-conduct.md
