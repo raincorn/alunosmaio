@@ -1,0 +1,111 @@
+/* RESPONSIVE MODE TO MASTHEAD */
+/* CREATED BY MAGNO REIS FOR RAINCORN COMMUNITY. ALL RIGHTS RESERVED */
+/* CODE LICENSED BY MIT LICENSE, FOR IF YOU WANT TO USE, CONTAT THE CORE TEAM */
+@media (max-width: 741px) {
+	.nav-global-main {
+		display: none;
+	}
+	nav#nav-global {
+		display: none;
+	}
+}
+
+/* END OF THE RESPONSIVE MODE */
+#nav-global {
+	display: block;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #efefef;
+	width: 100%;
+	height: 30px;
+	line-height: 19.2px;
+	z-index: 101;
+	position: relative;
+
+}
+body {
+	color: #333;
+	font-family: Ubuntu, Arial, 'libra sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+#nav-global .nav-global-wrapper {
+	width: 984px !important;
+}
+#nav-global .nav-global-wrapper {
+	width: auto;
+	background: none repeat scroll 0 0 #FFFFFF;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+#nav-global div {
+	box-shadow: none;
+}
+#nav-global {
+	line-height: 19.2px;
+}
+#nav-global ul {
+	margin-bottom: 0;
+	margin-left: 0;
+	top: 0;
+}
+nav ul, nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+ol, ul {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#nav-global ul li {
+	float: left;
+	display: block;
+	text-align: left;
+	margin: 0;
+	height: 30px;
+	margin-top: -1px;
+	position: relative;
+	top: 0;
+}
+p, li, code, pre {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: .75em;
+}
+#nav-global ul a.active {
+	color: #dd4814;
+	border-top: 3px solid #dd4814;
+	text-decoration: none;
+	opacity: 1;
+}
+#nav-global a:link, #nav-global a:visited {
+	color: #333;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 1.6;
+	border-top: 3px solid transparent;
+	border-bottom: 0;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	position: relative;
+	text-decoration: none;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	display: block;
+	list-style-image: none;
+}
+#nav-global ul li {
+	float: left;
+	display: block;
+	text-align: left;
+	margin: 0;
+	height: 30px;
+	margin-top: -1px;
+	position: relative;
+	top: 0;
+}

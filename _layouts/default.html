@@ -1,21 +1,40 @@
 {% include head.html %}
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        <a href="{{site.baseurl}}" class="btnc"><i class="fa fa-home"></i> Inicio</a>
-      {% if site.git_repo %}
-        <a href="{{site.domain}}about/contribute/" class="btnc"><i class="fa fa-github"></i> Contribuir</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btnc">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btnc">Download .tar.gz</a>
-      {% endif %}
-    </section>
-    <section class="main-content">
-      {{ content }}
-    </section>
-    <div class="footer-end">
-  {% include footer.html %}
-</div> <!-- footer-end -->
-  </body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-uppercase" href="#">{{site.title}}</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="{{site.domain}}">{{site.title}}</a></li>
+            <li><a href="{{site.domain}}/about/">Sobre</a></li>
+            <li><a href="{{site.domain}}/about/contribute">Contribuir</a></li>
+            <li><a href="{{site.domain}}/campuno/">CAMPUNO</a></li>
+        </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+<section class="main-content">
+
+  {{content}}
+
+</section>
+      <hr>
+
+{% include footer.html %}

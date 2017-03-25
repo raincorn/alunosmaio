@@ -1,6 +1,7 @@
 # SITE CONFIG
 title: AlunosMaio
 description: Tudo em um só lugar.
+org_title: Raincorn
 
 #SITE SETTINGS
 exclude: [vendor]
