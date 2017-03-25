@@ -5,6 +5,7 @@ org_title: Raincorn
 
 #SITE SETTINGS
 exclude: [vendor]
+git_contributor: https://github.com/raincorn/alunosmaio/graphs/contributors
 css_url: https://raincorn.github.io/alunosmaio/assets/css/
 github_repository: https://github.com/raincorn/alunosmaio
 domain: https://raincorn.github.io/alunosmaio/
