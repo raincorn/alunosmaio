@@ -26,6 +26,6 @@ layout: default
     </div>
   </div>
 
-# NOTÍCIA
+# <i class="fa fa-info-circle"></i>  Informações
 
-  Nosso site está em processo de criação e por este motivo não há conteúdo adicional, nós estamos atualmente na versão <kdb>{{site.current_version}}</kdb> contribua, seja membro do nosso time.
+  Nosso site está em processo de criação e por este motivo não há conteúdo adicional, nós estamos atualmente na versão <kbd>{{site.current_version}}</kbd> contribua, seja membro do nosso time.
