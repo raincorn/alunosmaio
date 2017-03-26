@@ -3,16 +3,16 @@ layout: default
 ---
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="{{site.baseurl}}campuno/">CAMPUNO</a>
+    <a class="nav-link active" href="{{site.domain}}campuno/">CAMPUNO</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}campuno/listagem">Listagem</a>
+    <a class="nav-link" href="{{site.domain}}campuno/listagem">Listagem</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="{{site.baseurl}}campuno/reg/">Regulamento</a>
+    <a class="nav-link disabled" href="{{site.domain}}campuno/reg/">Regulamento</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{site.baseurl}}campuno/p">Registro de Partidas</a>
+    <a class="nav-link" href="{{site.domain}}campuno/p">Registro de Partidas</a>
   </li>
 </ul>
 
@@ -31,11 +31,11 @@ O evento poderá ocorrer em qualquer horário e data sem aviso prévio ao decorr
   <div class="card-block">
     <h4 class="card-title">Regulamentação CAMPUNO</h4>
     <p class="card-text">Diretrizes e normas de legislação do campeonato. Ao iniciar-se uma partida as normas do UNO e normas extras irão regulamentar a partida.</p>
-    <a href="{{site.baseurl}}campuno/reg/" class="btn btn-primary">Leia &raquo;</a>
-    <a href="{{site.baseurl}}campuno/reg/" class="btn btn-danger disabled">BAIXE</a>
+    <a href="{{site.domain}}campuno/reg" class="btn btn-primary">Leia &raquo;</a>
+    <a href="{{site.domain}}campuno/reg/" class="btn btn-danger disabled">BAIXE</a>
   </div>
   <div class="card-footer text-muted">
-    Atualizado 17 Mar 2017 às 18:13 por <a href="#seces">Magno Reis</a>
+    Atualizado 17 Mar 2017 às 18:13 por <a href="#secretaria-de-estado">Magno Reis</a>
   </div>
 </div>
 
@@ -54,7 +54,7 @@ A Equipe STAFF irá moderar os participantes durante o campeonato, tendo eles pl
 - Ana Clara Lopes
 - Jean Estigarribia
 
-### [](#seces) Secretaria de Estado
+### Secretaria de Estado
 > Administra o evento e participantes oferecendo suporte, faz a legislação geral.
 
 - Magno Reis
@@ -69,6 +69,5 @@ A Equipe STAFF irá moderar os participantes durante o campeonato, tendo eles pl
 Estes membros podem lhe ajudar em caso de dúvidas e problemas. Os cŕeditos poderão ser concebidos por um dos membros tendo um motivo considerável diante das normas.
 
 
-NOTAS:
 
-<small><strong>\*</strong>A Secretária da Cultura Ana Caroline cedeu seu card de UNO para o promovimento do campeonato.</small>
+<div class="alert alert-info" role="alert"><strong>NOTA:</strong> A Secretária da Cultura Ana Caroline cedeu seu card de UNO para o promovimento do campeonato.</div>

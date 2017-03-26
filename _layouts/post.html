@@ -1,0 +1,28 @@
+{% include head.html %}
+
+    {% include navbar.html %}
+
+    <div class="container">
+
+        <section class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+            <div class="page-header">
+          <h2 class="blog-post-title">{{page.title}}</h2>
+        </div>
+          <p class="blog-post-meta">{{page.date | date_to_string}} por <a href="#">{{page.author}}</a></p>
+          <p class="blog-post-meta">{{page.categories}}</p>
+
+          <br>
+
+          {{content}}
+
+
+          </div>
+        </section>
+
+      </div><!--/row-->
+
+      <hr>
+
+{% include footer.html %}

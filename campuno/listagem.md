@@ -38,6 +38,15 @@ Abaixo você irá conferir a  lista de participantes _em ordem numeral ordenada 
       <!--- FIM DA TABLE 2 --->
       <!--- TABLE 3 -->
         <tr>
+        <th>E</th>
+        <th>Estefany</th>
+        <th>0</th>
+        <th>3</th>
+        <th>3</th>
+        </tr>
+        <!--- FIM DA TABLE 3 --->
+      <!--- TABLE 3 -->
+        <tr>
         <th>J</th>
         <th>Jean</th>
         <th>0</th>

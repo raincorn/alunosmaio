@@ -1,4 +1,5 @@
 ---
+title: Regulamento
 layout: default
 ---
 <div class="alert alert-danger" role="alert">
@@ -68,5 +69,3 @@ IV. Administração;
 (a) A card de valor Nº 7 (sete) terá valores especiais ao serem ativadas:
 
 I. Os participantes <u><em><bold>não</bold></em></u> deverá falar absolutamente nada;
-
-    
