@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: noploy
 title: Blogging
 ---
 
