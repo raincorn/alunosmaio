@@ -3,18 +3,18 @@
   <meta charset="UTF-8">
     <title>ACESSO NEGADO &middot; RAINCORN </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/docs.css">
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/avorent.css">
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/normalize.css">
- <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/docs.min.css.map">
- <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="{{site.css_url}}bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{site.css_url}}docs.css">
+    <link rel="stylesheet" type="text/css" href="{{site.css_url}}avorent.css">
+    <link rel="stylesheet" type="text/css" href="{{site.css_url}}normalize.css">
+ <link rel="stylesheet" type="text/css" href="{{site.css_url}}docs.min.css.map">
+ <link rel="stylesheet" type="text/css" href="{{site.css_url}}font-awesome.min.css">
 <link rel="icon" href="/assets/img/brand/favicon.ico">
- <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/assets/css/normalize.css" media="screen">
+ <link rel="stylesheet" type="text/css" href="{{site.css_url}}normalize.css" media="screen">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://127.0.0.1:4000/assets/js/jquery.min.js"><\/script>')</script>
- <script src="http://127.0.0.1:4000/assets/js/bootstrap.js"></script>
+<script>window.jQuery || document.write('<script src="{{site.domain}}assets/js/jquery.min.js"><\/script>')</script>
+ <script src="{{site.domain}}assets/js/bootstrap.js"></script>
     <style type="text/css" media="screen">
      body {
        background-color: #f1f1f1;
@@ -60,17 +60,17 @@
   <body>
 
     <div class="container-fluid center">
-      <img src="https://raincorn.github.io/assets/img/brand/logo.png" height="120px" alt="Responsive image" class="image-fluid image-responsive">
+      <img src="{{site.org_url}}assets/img/brand/logo.png" height="120px" alt="Responsive image" class="image-fluid image-responsive">
 
       <h1>403</h1>
       <p><strong>ACESSO NÃO AUTORIZADO</strong></p>
 
       <p>
-        Seu acesso a está página da Raincorn não foi autorizado pelo servidor. Por favor entre em contato com o
+        Seu acesso a está página da {{site.org_title}} não foi autorizado pelo servidor. Por favor entre em contato com o
         administrador e saiba mais.
       </p>
       <p>
-        Caso você ache que isso é um erro, <a href="https://raincorn.github.io/about/team/core">contate um administrador</a>.
+        Caso você ache que isso é um erro, <a href="{{site.org_url}}about/team/core">contate um administrador</a>.
       </p>
 
       <div id="suggestions">
@@ -79,9 +79,9 @@
       </div>
 <hr>
   <div class="btn btn-group">
-      <a href="https://raincorn.github.io/" class="btn btn-default">PÁGINA DA RAINCORN</a>
-      <a href="https://github.com/raincorn/alunosmaioissues" class="btn btn-warning">ISSUES</a>
-      <a href="https://raincorn.github.io/blog/" class="btn btn-default">BLOG</a>
+      <a href="{{site.org_url}}" class="btn btn-default">PÁGINA DA RAINCORN</a>
+      <a href="{{site.github_repository}}issues" class="btn btn-warning">ISSUES</a>
+      <a href="{{site.org_url}}blog/" class="btn btn-default">BLOG</a>
     </div>
 
 
