@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: noploy
 ---
 <ul class="nav nav-tabs">
   <li class="nav-item">
