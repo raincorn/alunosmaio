@@ -1,5 +1,5 @@
 ---
-layout: noploy
+layout: default
 ---
 
 # PARTIDAS JOGADAS
