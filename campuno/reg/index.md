@@ -1,6 +1,6 @@
 ---
 title: Regulamento
-layout: noploy
+layout: default
 ---
 <div class="alert alert-danger" role="alert">
   <h4 class="alert-heading"><i class="fa fa-warning"></i> DESENVOLVIMENTO</h4>
