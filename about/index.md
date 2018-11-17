@@ -1,5 +1,5 @@
 ---
-layout: noploy
+layout: default
 title: Sobre
 ---
 
